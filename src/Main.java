@@ -33,23 +33,23 @@ public class Main {
             System.out.println(i);
         }
         //Задача 8
-        int savings = 29000;
-        int total = 0;
+        int monthlySavings = 29000;
+        int totalSavings = 0;
         for (int i = 0; i < 12; i++) {
-            total = total + savings;
-            System.out.println("Месяц " + i + " ,сумма накоплений равна " + total + " рублей");
+            totalSavings = totalSavings + monthlySavings;
+            System.out.println("Месяц " + i + " ,сумма накоплений равна " + totalSavings + " рублей");
         }
-        System.out.println(total);
+        System.out.println(totalSavings);
 
         //Задача 9
-        int savingsWithInterest = 29000;
-        int total1 = 0;
+        int monthlySavingsOne = 29000;
+        int totalSavingsOne = 0;
         for (int i = 0; i < 12; i++) {
-            total1 = total1 + total / 100;
-            total1 = total1 + savingsWithInterest;
-            System.out.println("Месяц " + i + " ,сумма накоплений равна " + total1 + " рублей");
+            totalSavingsOne = totalSavingsOne + totalSavingsOne / 100;
+            totalSavingsOne = totalSavingsOne + monthlySavingsOne;
+            System.out.println("Месяц " + i + " ,сумма накоплений равна " + totalSavingsOne + " рублей");
         }
-        System.out.println(total1);
+        System.out.println(totalSavingsOne);
 
         //Задача 10
         int c = 2;
